@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --theme-font-color:#FD6F00;
+    --primary-font-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(33, 33, 33);
+    overflow-x: hidden;
+}
+
+
+
+/* REUSED STYLES */
+
+.padding-both {
+    padding: 30px 0;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.half-div {
+    width: 50%;
+}
+
+
+/* Navbar */
+
+nav .logo {
+    font-size: 24px;
+    color: var(--theme-font-color);
+}
+
+.nav-items {
+    gap: 28px;
+    list-style: none;
+    font-size: 18px;
+    
+}
+
+.nav-items li a{
+    color: var(--primary-font-color);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.nav-items li a:hover {
+    color: var(--theme-font-color);
+}
+
+.nav-items li button {
+    background-color: var(--theme-font-color);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color, color 0.3s ease-in-out;
+}
+.nav-items li button:hover {
+    background-color: white;
+    color: black
+}
+
+
+/* Banner Section */
+
+
+section {
+    color: var(--primary-font-color);
+}
+
+.bio h1 i, .big-p i {
+    color: var(--theme-font-color);
+}
+
+section .bio h1{
+    font-size: 42px;
+}
+
+section .bio .small-p{
+    font-size: 14px;
+    line-height: 1;
+    color: gray;
+}
+
+section .bio .big-p {
+    font-size: 24px;
+    word-spacing: 8px;
+    margin: 20px 0;
+}
+
+.hire-me {
+    width: 255px;
+    padding: 6px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: rgb(52, 52, 52);
+}
+
+.hire-me button {
+    font-size: 20px;
+    padding: 10px 28px;
+    border-radius: 28px;
+    border: none;
+    background-color: var(--theme-font-color);
+    color: var(--primary-font-color)
+}
+
+.hire-me p {
+    font-size: 20px;
+    padding: 0 14px;
+}
+
+
+.social-links a {
+    font-size: 22px;
+    margin-right: 20px;
+    color: gray;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--theme-font-color);
+}
+
+
+/* Lace */
+
+.lace {
+    width: 1550px;
+    position: relative;
+    left: -10px;
+    background-color: black;
+    padding: 35px 0;
+    color: var(--primary-font-color);
+    font-size: 24px;
+    rotate: -6deg;
+}
+
+.about-me {
+    margin-top: 100px;
+}
+
+.about-me .experience {
+    text-align: right;
+}
+
