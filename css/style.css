@@ -175,23 +175,68 @@ section .bio .big-p {
     line-height: 1.3;
 }
 
-.about-me .experience {
+.about-me .exp {
     text-align: right;
 }
 
-.about-me .experience i {
+.about-me .exp i {
     color: var(--theme-font-color);
     margin-bottom: 8px;
 }
 
-.about-me .experience h1 {
+.about-me .exp h1 {
     font-size: 28px;
     font-weight: 700;
     margin-top: 4px;
     line-height: 1;
 }
 
-.about-me.experience p {
+.about-me .exp p {
     font-size: small;
 }
+
+
+/* Experience Section */
+
+.experience {
+    background-image: url('../images/exp-BG.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 80vh;
+}
+
+
+.my-exp h1 {
+    padding: 20px 0;
+    font-size: 28px;
+}
+
+.my-exp p {
+    font-size: smaller;
+}
+
+.my-exp {
+    padding-right: 50px;
+}
+
+.my-jobs {
+    padding-left: 50px;
+}
+
+.job {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--secondary-font-color);
+}
+
+.job .time-post p {
+    font-size: smaller;
+}
+
+.job h2 {
+    padding-top: 15px;
+}
+
+
+/* AWARD SECTION */
 
