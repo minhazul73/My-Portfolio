@@ -14,6 +14,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    color: var(--primary-font-color);
     background-color: rgb(33, 33, 33);
     overflow-x: hidden;
 }
@@ -85,25 +86,24 @@ nav .logo {
 /* Banner Section */
 
 
-section {
-    color: var(--primary-font-color);
+.banner {
+    margin-top: 70px;
 }
 
 .bio h1 i, .big-p i {
     color: var(--theme-font-color);
 }
 
-section .bio h1{
+.banner .bio h1{
     font-size: 42px;
 }
 
-section .bio .small-p{
+.banner .bio .small-p {
     font-size: 14px;
-    line-height: 1;
     color: var(--secondary-font-color);
 }
 
-section .bio .big-p {
+.banner .bio .big-p {
     font-size: 24px;
     word-spacing: 8px;
     margin: 20px 0;
@@ -238,5 +238,56 @@ section .bio .big-p {
 }
 
 
+.section-h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.section-p {
+    text-align: center;
+    color: var(--secondary-font-color);
+    margin: 10px 0 40px 0;
+}
+
+
 /* AWARD SECTION */
+
+.award {
+    padding: 140px 0;
+}
+
+.my-awards {
+    background-color: rgb(9, 9, 9);
+    padding: 40px 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.my-awards>p {
+    padding: 20px 300px 0 0;
+    color: var(--secondary-font-color);
+}
+
+.name p {
+    font-size: larger;
+}
+
+
+/* Portfolio */
+
+.tabs {
+    padding: 0 260px;
+}
+
+.tabs button {
+    color: var(--primary-font-color);
+    background-color: rgb(9, 9, 9);
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.tabs button:nth-child(2) {
+    background-color: var(--theme-font-color);
+}
 
